@@ -1,23 +1,17 @@
 # Coba fastify 
 Nyoba-nyoba framework fastify.
 
-## Available Scripts
+## Lists of command
+```bash
+npx prisma generate
 
-In the project directory, you can run:
+# Open prisma studio
+npx prisma studio
 
-### `yarn run dev`
+# Seeding Database
+npx prisma db seed
 
-To start the app in dev mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Migration
+npx prisma migrate dev 
+```
 
-### `yarn start`
-
-For production mode
-
-### `yarn run test`
-
-Run the test cases.
-
-## Learn More
-
-To learn Fastify, check out the [Fastify documentation](https://www.fastify.io/docs/latest/).
